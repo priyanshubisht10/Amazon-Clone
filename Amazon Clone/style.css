@@ -1,0 +1,302 @@
+* {
+  margin: 0;
+  font-family: Arial;
+  border: border-box;
+}
+
+.navbar {
+  height: 60px;
+  background-color: #0f1111;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.nav-logo {
+  height: 50px;
+  width: 100px;
+}
+
+.logo {
+  background-image: url(amazon_logo.png);
+  height: 50px;
+  width: 100%;
+  background-size: cover;
+}
+
+.border {
+  border: 2px solid transparent;
+}
+
+.border:hover {
+  border: 1.5px white solid;
+}
+
+.add-first {
+  margin-left: 19px;
+  color: #cccccc;
+  font-size: 0.9rem;
+}
+
+.add-sec {
+  font-size: 1rem;
+  margin-left: 5px;
+}
+
+.add-icon {
+  display: flex;
+  align-items: center;
+}
+
+.nav-search {
+  display: flex;
+  justify-content: space-evenly;
+  width: 950px;
+  height: 40px;
+  background-color: #febd69;
+  border-radius: 3px;
+}
+
+.nav-search:hover {
+  border: #febd69 solid;
+}
+
+.search-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+}
+
+.search-select {
+  border-radius: 3px;
+  background-color: #f3f3f3;
+  width: 50px;
+  text-align: center;
+}
+
+.search-input {
+  width: 900px;
+  align-items: center;
+  font: 1em sans-serif;
+}
+
+.hello {
+  font-size: 0.75rem;
+}
+
+.down-arrow {
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+}
+
+.f.down-item {
+  margin-left: 100px;
+}
+
+.sign-in {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.returns {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.cart {
+  display: flex;
+  justify-content: center;
+  align-items: last baseline;
+}
+
+.cart-logo {
+  font-size: 35px;
+}
+
+.language {
+  display: flex;
+  align-items: center;
+}
+
+.flag {
+  font-size: large;
+}
+
+.lang-text {
+  font-size: 0.75rem;
+  font-weight: 700;
+  margin-left: 3px;
+}
+
+.panel {
+  height: 40px;
+  display: flex;
+  color: white;
+  justify-content: left;
+  align-items: center;
+  background-color: #222f3d;
+  font-size: 0.95rem;
+}
+
+.all {
+  margin-left: 10px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.back-to-top {
+  background-color: #37475a;
+  height: 40px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+}
+
+.options1 {
+  margin: 5px;
+}
+
+.options2 {
+  margin: 5px;
+}
+
+.options3 {
+  margin: 5px;
+}
+
+.options4 {
+  margin: 5px;
+}
+
+.options5 {
+  margin: 5px;
+}
+
+.options6 {
+  margin-left: 850px;
+}
+
+.menu-logo {
+  font-size: larger;
+  display: flex;
+  margin-right: 6px;
+  justify-content: center;
+}
+
+.left-items {
+  display: flex;
+}
+
+.hero-section {
+  background-image: url(hero_image.jpg);
+  height: 450px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.hero-message {
+  background-color: white;
+  padding: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: center;
+  width: 95%;
+  margin-bottom: 40px;
+}
+
+.hero-message a {
+  color: #007185;
+}
+
+.tiles {
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #e2e7e6;
+}
+
+.tile {
+  width: 23%;
+  height: 400px;
+
+  padding: 20px 0px 15px;
+  background-color: white;
+  justify-content: center;
+}
+
+.image {
+  height: 300px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-image: cover;
+  background-repeat: no-repeat;
+}
+
+.content {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.content p {
+  color: #007185;
+}
+
+.foot2 {
+  background-color: #232f3e;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.flist {
+  list-style-type: none;
+  margin-top: 50px;
+  padding: 30px;
+}
+
+.list-foot {
+  list-style-type: none;
+}
+
+.foot3 {
+  border-top: 0.1px solid white;
+  height: 100px;
+  background-color: #232f3e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.amazon {
+  height: 100px;
+  width: 200px;
+  background-size: cover;
+}
+
+.list-items {
+  margin-top: 10px;
+  font-size: smaller;
+  list-style-type: none;
+}
+
+.thank-you {
+  color: white;
+  margin-left: 200px;
+  font-weight: 300;
+}
+
+.thank-you a {
+  color: white;
+}
